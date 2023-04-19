@@ -1,0 +1,25 @@
+{
+  "name": "morgan_app",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.2.10",
+    "nodemon": "^2.0.22",
+    "razorpay": "^2.8.3",
+    "shortid": "^2.2.16",
+    "uuid": "^8.3.2"
+  }
+}
